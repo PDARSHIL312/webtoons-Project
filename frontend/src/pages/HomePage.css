@@ -1,0 +1,234 @@
+body {
+  background-color: #f5f5dc;
+  font-family: "Arial", sans-serif;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.breadcrumb-item {
+  color: #6991bd;
+  text-decoration: none;
+}
+
+.breadcrumb-item:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+
+.header {
+  background-color: #ba8cd3;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #ff69b4;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  color: #ff4500;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.table-of-contents {
+  padding: 15px;
+  border: 2px solid #ffa500;
+  margin: 20px 0;
+}
+
+.table-of-contents h2 {
+  color: #8a2be2;
+}
+
+.table-of-contents ul {
+  list-style: none;
+  padding: 0;
+}
+
+.table-of-contents li {
+  margin: 5px 0;
+}
+
+.table-of-contents a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+.table-of-contents a:hover {
+  text-decoration: underline;
+}
+
+/* .webtoons-section {
+  margin: 20px 0;
+} */
+
+/* .webtoon-item {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ff69b4; /* Pink */
+/* border-radius: 5px;
+  background-color: #fff; */
+/* } */
+
+.webtoons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* width: 80%; */
+  min-height: 100vh;
+  min-width: 100wh;
+  background-color: #f5f5dc;
+}
+
+.webtoon-item {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* border: #28a745 ; */
+}
+
+.webtoon-item h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.webtoon-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.webtoon-item p {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* .webtoon-image {
+  max-width: 100%;
+  height: auto;
+} */
+
+.component-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.vote-section,
+.feedback-section {
+  flex: 1;
+  margin: 0 10px;
+  padding: 15px;
+  border: 2px solid #ff4500;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.vote-buttons {
+  margin-bottom: 10px;
+}
+
+.vote-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.vote-button.manhwa {
+  background-color: #3cb371;
+}
+
+.vote-button.anime {
+  background-color: #6d99c4;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.thank-you-message {
+  color: #32cd32;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 3px solid #ff69b4;
+}
+/* Navbar.css */
+
+.custom-navbar {
+  background-color: #f5f5dc;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search-form .btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.search-form .btn:hover {
+  background-color: #218838;
+}
