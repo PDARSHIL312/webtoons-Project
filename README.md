@@ -2,7 +2,7 @@
 
 A single-page application (SPA) showcasing the **Top 5 Webtoons** from "The 50 Best Fantasy Manhwa You Must Read Now." Users can view webtoon details, vote on their favorite version (Manhwa vs Anime), provide feedback, and enjoy a responsive, optimized browsing experience.
 
-##video
+##video##
 [12_10_2024, 3_05_43 am - Screen - Untitled video.webm](https://github.com/PDARSHIL312/webtoons-Project/blob/main/12_10_2024%2C%203_05_43%20am%20-%20Screen%20-%20Untitled%20video.webm)
 
 ## Features
